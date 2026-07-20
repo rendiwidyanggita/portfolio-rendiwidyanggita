@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "devflow",
+    "title": "DevFlow Dashboard",
+    "executive_summary": "A comprehensive project management dashboard facilitating seamless team collaboration, timeline tracking, and repository insights.",
+    "hero_image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBGj9cOuO0hjyPwPsLWU-PoQe4-45xw2RmIPwaRLb5TpuGQgRFU39vSVMEDOE2WhIUrUSIik1MZi3jG8psOtN2D08tyzpCulF3LN6JpnvNfa5ibzuPymynepUmTXSZ5xCWJT7fePmJ9mI4HKlDC4ZumAsUvM7dWzjdDTEsEdM8SVAqAQpBX3t-spvDEs29BMC84mlEQOFGMs4-MRFBWUNoRo6HHgHhegTGA6HqXsfXObCAL5Tx0BfWxNt35CY3te7LsQ6p4GvnOJxYR",
+    "repo_url": "https://github.com/rendiwidya/devflow",
+    "about": "DevFlow is a modern project management platform designed to help development teams track their sprint cycles, repository updates, and deployment pipelines in one unified interface. The system acts as a command center for engineers and product managers alike.",
+    "problem_statement": "Development teams often struggle with tool fragmentation, jumping between issues trackers, git repositories, and CI/CD logging boards. This causes context switching and reduces delivery speed.",
+    "solution": "DevFlow consolidates critical team data into clean, responsive dashboards. It tracks sprint progress, aggregates repository activity feeds, and showcases system health statuses dynamically.",
+    "tech_stack": ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBGj9cOuO0hjyPwPsLWU-PoQe4-45xw2RmIPwaRLb5TpuGQgRFU39vSVMEDOE2WhIUrUSIik1MZi3jG8psOtN2D08tyzpCulF3LN6JpnvNfa5ibzuPymynepUmTXSZ5xCWJT7fePmJ9mI4HKlDC4ZumAsUvM7dWzjdDTEsEdM8SVAqAQpBX3t-spvDEs29BMC84mlEQOFGMs4-MRFBWUNoRo6HHgHhegTGA6HqXsfXObCAL5Tx0BfWxNt35CY3te7LsQ6p4GvnOJxYR"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "apex-qa",
+    "title": "Apex QA Portal",
+    "executive_summary": "Advanced analytics platform for QA teams, providing real-time data visualization for test execution, defect tracking, and automation trends.",
+    "hero_image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBAWOHd9TE0Yx1aKKy-E18Vd03NcE0tUT2mW_RPAhIreXrrbBzAZ8bKyflR3Meklr8xZClbke6GQh-zLcBGRIERjUWIrnZlCx3BbTq_Gl3pkg0UhIU3v-oEnZO69cpuVm7rCt6g3wTT8NpgMuFvs65C1YJggN37ncWUeNgSRmQ1PiwvAeYPfKacr4YzRXMVvJFQoffbuoYo6KKjg4J26ch-BgonO4X5Ln3HPar0OYUjHS9n58ZX5yN5sn2yHcAGUTbU8CQXeh9u1Ez0",
+    "repo_url": "https://github.com/rendiwidya/apex-qa",
+    "about": "Apex QA Portal is a sophisticated quality assurance reporting dashboard. It allows QA leaders to visualize automation script performance, track manual test case pass rates, and log/manage software defects from a single page.",
+    "problem_statement": "Siloed test runner logs and spread-out bug trackers make it hard for stakeholders to assess application release readiness and trace defect trends over time.",
+    "solution": "Apex imports test run results automatically via Webhooks, plotting execution times, flake rates, and coverage statistics in real-time charts.",
+    "tech_stack": ["Laravel", "MySQL", "Chart.js", "PHP", "Tailwind CSS"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBAWOHd9TE0Yx1aKKy-E18Vd03NcE0tUT2mW_RPAhIreXrrbBzAZ8bKyflR3Meklr8xZClbke6GQh-zLcBGRIERjUWIrnZlCx3BbTq_Gl3pkg0UhIU3v-oEnZO69cpuVm7rCt6g3wTT8NpgMuFvs65C1YJggN37ncWUeNgSRmQ1PiwvAeYPfKacr4YzRXMVvJFQoffbuoYo6KKjg4J26ch-BgonO4X5Ln3HPar0OYUjHS9n58ZX5yN5sn2yHcAGUTbU8CQXeh9u1Ez0"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "aura-ecommerce",
+    "title": "Aura E-commerce",
+    "executive_summary": "A responsive, minimalist e-commerce storefront designed for artisanal home goods, featuring seamless cart management and optimized mobile checkout.",
+    "hero_image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAuWAyMior6dwGFeJyvN8XiN7rRix9-W1E90gz7u8etVOk_a0WC64qRC5ka4sUVsnUglr319-XWK-JQvH6gFQdLGsrgMjcUbZYbjMMVXnC7sRp-9CBWzEjCReP7hlyud-IzHR5KhfDJS2xJWIJ0GWfzyhwvqbYuOekKlSqqjkd59DQi-tIXgsOMGyBSOzguua1hiECH7x7ZYeeAqH-iYZA8uKx-jlA2gKtNXGqHhU-VHg7QQpGOtB6Xf-mzpxKElQc4haGLFFuNcpwV",
+    "repo_url": "https://github.com/rendiwidya/aura-ecommerce",
+    "about": "Aura E-commerce is a high-end online retail storefront showcasing minimalist artisanal ceramic vases and home textiles. The platform prioritizes high-fidelity styling and fluid checkout flows.",
+    "problem_statement": "Generic checkout templates lead to high cart abandonment rates due to cognitive load, friction in form filling, and lack of visual polish on mobile devices.",
+    "solution": "Built a highly focused, airy checkout flow with automated forms, live validation, and integrated Stripe Elements for secure payment entry.",
+    "tech_stack": ["Next.js", "Stripe", "Zustand", "Tailwind CSS", "TypeScript"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAuWAyMior6dwGFeJyvN8XiN7rRix9-W1E90gz7u8etVOk_a0WC64qRC5ka4sUVsnUglr319-XWK-JQvH6gFQdLGsrgMjcUbZYbjMMVXnC7sRp-9CBWzEjCReP7hlyud-IzHR5KhfDJS2xJWIJ0GWfzyhwvqbYuOekKlSqqjkd59DQi-tIXgsOMGyBSOzguua1hiECH7x7ZYeeAqH-iYZA8uKx-jlA2gKtNXGqHhU-VHg7QQpGOtB6Xf-mzpxKElQc4haGLFFuNcpwV"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "summitwir",
+    "title": "SummitWIR",
+    "executive_summary": "Sistem penyewaan alat mendaki dengan integrasi payment gateway Midtrans untuk otomasi transaksi.",
+    "hero_image": "https://lh3.googleusercontent.com/aida/AP1WRLtEhgUyks4pjgCkU0y3MBqNm0HXsCc4abky8RFl3_K4iZOxoFGc1wYN-FVy19e8LDqsEOz71anoeP27Q4xE6wQORdFAC0duKn31r4jncjmBRnXDqbL6LGB4NuJdKgdQPDiI90fiEwowdHHR9AemZGl6YQbOf8zxqqWMuUI64YcRlHknpgOEwlWI8IhOA1ZuWqDvt9Eu44zoaCyTYBOI9d-B0mXlerJ9Be8SqtmX9C8UfjYG4WWKmts4iq5v",
+    "repo_url": "https://github.com/rendiwidya/summitwir",
+    "about": "SummitWIR is a comprehensive web-based platform designed to streamline the hiking equipment rental process for both business owners and outdoor enthusiasts. Developed to replace outdated manual logging systems, this application offers an intuitive interface for browsing available gear, checking real-time availability, and completing bookings securely online.\n\nThe core objective was to create a frictionless user journey from equipment selection to return, ensuring that adventurers can focus on their upcoming climbs rather than logistical hurdles. The system features a robust admin dashboard for inventory management, user verification, and financial reporting, making it an end-to-end solution for modern rental operations in the outdoor industry.",
+    "problem_statement": "Prior to SummitWIR, the rental process was plagued by inefficiencies characteristic of manual operations:\n\n* **Manual Booking Friction:** Customers had to rely on WhatsApp messages or phone calls to check gear availability, leading to delayed responses and lost sales during peak hiking seasons.\n* **Payment Reconciliation:** Verifying bank transfers manually required staff to constantly cross-reference bank statements with order logs, creating a high margin for human error and delaying order confirmation.\n* **Inaccurate Stock Tracking:** Without a centralized database, double-booking equipment was common, resulting in customer dissatisfaction when promised gear was unavailable upon pickup.",
+    "solution": "SummitWIR addressed these operational bottlenecks through a custom-built, integrated technical architecture designed for reliability and speed.\n\n* **Automated Payment Gateway:** Integrating Midtrans via REST APIs enabled instant payment verification (Virtual Accounts, QRIS, e-Wallets), completely eliminating manual reconciliation and reducing confirmation times from hours to seconds.\n* **Real-time Inventory Engine:** Built a custom booking engine using Laravel's robust ORM to handle concurrent bookings, ensuring absolute database consistency and preventing double-booking through strict transaction locks.",
+    "tech_stack": ["Laravel", "MySQL", "Midtrans", "Tailwind CSS", "PHP", "REST API"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida/AP1WRLsV93gJ5Dbm2sjVkSPwBDfgkTmNdkX0rNslqz1nWRj4fJbX_2843GIuczUOi-GiFr8VDX3my0OCxwcZOSgKxPus8wfeWUqJGrsVnrdlx7kiGWwP42bfjZcgYgwdZxygauQk9RrkKFWs8iV89ZkaQjpf4YDB17wVvNq7gZ7kME0vMeznBU9KKX8IB_zQqRRONy82EOaPbSH7_D_TGC-Y9fIv9tdE8GleWvaIDxTZ74msZaIjBzD9xmmZDrY",
+      "https://lh3.googleusercontent.com/aida/AP1WRLsGYFIKW_7Jfk2ORnn4wHbD3hoSImUr4Dwz1uBDEp1AEFZd1D6QmFhRMfD4MfSc7pc_vXiYv9SgD6VoJhfLblocl8pbrehDEAbcRM7XUdmDDgBSmrMIHCw69lpVsnwwzpng7Nz-A0ce9s7GYM67zVdGOFqnss-rCDqFu1ypp6USCJCUMPe6ACc8GTOqVYM48-WZtgiADf3pdtZy9wdKh7aFVvFlas2n1_04C_7NbK958vs_LR-LPUPEHGz-",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCm11qlX5_xCmusTWsMnVbD32rdp45mgCyESa8EcNW5T__V5H8BJ7TptVaAumpaPeJ4xoyyyC22u9coqKsvnOf9sXT2IfyDO-5AiPGc4BzFS7jLXh7BvKtZbvj74htM8jtPhLW0lbC8a2rRcAoLawC3Rzmw7kLLkxQMXijsdUJPb8oTPuGL0k_nKvetGdl0I-5alhR3T5K27fOQuQcKVAg_tObQv3in_RQb0-Qh2BlmotK_ltPNWoMpDX5RIbfSe8pToYSIt1EGgYzU",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBJfRJi9mx6eStMQQAcAGFZQsNfob046o_bEwUH13AYY6gQLuZzV_RAu0NvSf53SCUpin9XEXBPUj-MH0-71WdPOjpxrn9Du8X_qbogP4-hqr9TIyX2gAojk94F-A2ZL2EG9EIhFG8BZhmq2hQwSBgqQxAiuomTJPG5yid7qApDASBI3O3Nb9Zezq1eISx0E9QjZumGSQIAVBVF9k3fKB3oQpnxWWq7PHzn3u8a-vfBwB3_O4WNk2hkmwRQ8f-USB1HPxRXWjQMogXx"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "taskmaster",
+    "title": "TaskMaster",
+    "executive_summary": "An intuitive task management application that streamlines collaborative workflows and boosts team productivity.",
+    "hero_image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCgdWroAA3haTFzzx0Kj-sSRR7lgknr4lDFah8iQtavps7d_0l5BHJdsDvf_BjUKzE0_-Z62uHvpnk8-VEE2PaIhhTPrCKZ-k-ZFoVP2E2xXiPKvSGdC5-o3tU7hm6bDU938rE2ktE74LtoOhIokPWjDnQbMDwgH8jb5urZNc5EykRIZuUh6SvaidI-C9K-0MYf4_5wezfRtpt_UcsWo6Ydstauu4jh_kZy4_Ssif9HDQs3-88Oi1UEi4LZ7xLsD77tiu3Mt5VASEYX",
+    "repo_url": "https://github.com/rendiwidya/taskmaster",
+    "about": "TaskMaster is a collaborative planner bringing kanban simplicity and milestone tracking into a unified view. Made with React, it is fast and interactive.",
+    "problem_statement": "Teams get bogged down in heavy spreadsheet trackers, losing visibility on immediate deliverables and blocking issues.",
+    "solution": "TaskMaster offers instant state transitions, real-time board updates via websockets, and responsive charts showing team milestone speed.",
+    "tech_stack": ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCgdWroAA3haTFzzx0Kj-sSRR7lgknr4lDFah8iQtavps7d_0l5BHJdsDvf_BjUKzE0_-Z62uHvpnk8-VEE2PaIhhTPrCKZ-k-ZFoVP2E2xXiPKvSGdC5-o3tU7hm6bDU938rE2ktE74LtoOhIokPWjDnQbMDwgH8jb5urZNc5EykRIZuUh6SvaidI-C9K-0MYf4_5wezfRtpt_UcsWo6Ydstauu4jh_kZy4_Ssif9HDQs3-88Oi1UEi4LZ7xLsD77tiu3Mt5VASEYX"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "eduportal",
+    "title": "EduPortal",
+    "executive_summary": "A comprehensive learning management system providing seamless access to educational resources and course tracking.",
+    "hero_image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA7xcxb_lNhqEpm0W7f8WR8Wm2PGmNZlneDF6uT0SaPqBBFkSxQYM9cdWxzdEiVYAUXZ0Mp1bJ4_CfJY4-6HKdyPHje08Px4eC6FyZkhpvO-m-STtV_7cC3iEAILKkuHjht0Q-itdVSE71o1F4rvLky9fNEaL9vegvwPdYqidxTEHWzzZxssm_jdNs0TAsOhtawIb04xnqYCLHChZ1rzvxfIjZWiuTqx4vzM0YeHlUgo_3Rc7u9nPX4-DLitbBObhVNJz1OBk3uHCHy",
+    "repo_url": "https://github.com/rendiwidya/eduportal",
+    "about": "EduPortal is a web application designed for students and educators, simplifying enrollment, resource sharing, and assignment tracking.",
+    "problem_statement": "Academic tracking can be disjointed, requiring students to check multiple pages for resources, grades, and calendar events.",
+    "solution": "EduPortal aggregates course information into a singular responsive interface with full mobile capability.",
+    "tech_stack": ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS", "TypeScript"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuA7xcxb_lNhqEpm0W7f8WR8Wm2PGmNZlneDF6uT0SaPqBBFkSxQYM9cdWxzdEiVYAUXZ0Mp1bJ4_CfJY4-6HKdyPHje08Px4eC6FyZkhpvO-m-STtV_7cC3iEAILKkuHjht0Q-itdVSE71o1F4rvLky9fNEaL9vegvwPdYqidxTEHWzzZxssm_jdNs0TAsOhtawIb04xnqYCLHChZ1rzvxfIjZWiuTqx4vzM0YeHlUgo_3Rc7u9nPX4-DLitbBObhVNJz1OBk3uHCHy"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "shopease",
+    "title": "ShopEase",
+    "executive_summary": "A modern e-commerce platform delivering a frictionless shopping experience with integrated secure payments.",
+    "hero_image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDPAwcYi6o0HiGx-HotiWGj-spTYVCELwByqc6P-IOy-DuCOyerCeNxPy2h2uyJqMx7GE-yOqIvVhpdbflikNpgZpFrzIg8wRxLk6y_iQ0gCsJHXfpSsZnTEFnmJ4CiZsFQR9-szplwlHZvTAi7w5_pqiqn4vQgfLQHHLchWzlLQOF7ORRF_Joa_LGPd4588_-i5_L9Tjun0f_bdkfIRZnN3tUz6X8oSBqe7bRD07_n9snA6STDxVxrR5mVFdU2FI49-CndgmVxMHUP",
+    "repo_url": "",
+    "about": "ShopEase is a lightweight, responsive online storefront that leverages a serverless backend structure to provide fast page load speeds.",
+    "problem_statement": "Slow loading storefronts and complex payment steps lead directly to lost sales.",
+    "solution": "ShopEase simplifies catalog navigation and keeps checkout states completely client-side for rapid response times.",
+    "tech_stack": ["Vue.js", "Stripe", "Firebase", "Tailwind CSS"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDPAwcYi6o0HiGx-HotiWGj-spTYVCELwByqc6P-IOy-DuCOyerCeNxPy2h2uyJqMx7GE-yOqIvVhpdbflikNpgZpFrzIg8wRxLk6y_iQ0gCsJHXfpSsZnTEFnmJ4CiZsFQR9-szplwlHZvTAi7w5_pqiqn4vQgfLQHHLchWzlLQOF7ORRF_Joa_LGPd4588_-i5_L9Tjun0f_bdkfIRZnN3tUz6X8oSBqe7bRD07_n9snA6STDxVxrR5mVFdU2FI49-CndgmVxMHUP"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "codereview-tool",
+    "title": "CodeReview Tool",
+    "executive_summary": "An automated code analysis utility that integrates with GitHub to streamline the review process and enforce quality standards.",
+    "hero_image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAmzaZb6G-8YbF3dwmPdteNX5huf7wFssGy53k-kNE2NmTiN34fCUAQtaEVyH_14Mc-z4Zu_bToRF2G_DrxrzU0_dzz0Uc_aOCPk9-fKaWaP5ego8geO0h1lZsG_hhzVPEfhgPgPlbMOaZULj5-S5YdAcgktEhyWP6Nmvg6-5yF1nksCA0SPA-btjsfvMCVG_LHG9L4Pknyqg2CZfDDr8Ii4jifb-iZo5Wvq0VsdYjGCA2GaPhPnR1B8fVJ-xhZjzb184Ed1YpSTR3l",
+    "repo_url": "https://github.com/rendiwidya/codereview",
+    "about": "CodeReview Tool checks code changes on Pull Requests automatically, validating stylistic patterns and catching common logic errors.",
+    "problem_statement": "Manual code reviews take valuable engineering time and are prone to oversight regarding styling guidelines.",
+    "solution": "The tool parses git diffs and runs customizable lint rules, feeding feedback directly back to GitHub Pull Request comments.",
+    "tech_stack": ["Python", "Django", "GitHub API", "Tailwind CSS"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAmzaZb6G-8YbF3dwmPdteNX5huf7wFssGy53k-kNE2NmTiN34fCUAQtaEVyH_14Mc-z4Zu_bToRF2G_DrxrzU0_dzz0Uc_aOCPk9-fKaWaP5ego8geO0h1lZsG_hhzVPEfhgPgPlbMOaZULj5-S5YdAcgktEhyWP6Nmvg6-5yF1nksCA0SPA-btjsfvMCVG_LHG9L4Pknyqg2CZfDDr8Ii4jifb-iZo5Wvq0VsdYjGCA2GaPhPnR1B8fVJ-xhZjzb184Ed1YpSTR3l"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "api-gateway",
+    "title": "API Gateway",
+    "executive_summary": "A high-performance gateway service managing request routing, rate limiting, and authentication for microservices.",
+    "hero_image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDm_u5I8DQSS-tDa1OtiAHIfHU1BlR94cuTZAEORcM8AgIJHIJ1QyDEpqtUxEzQ_iLykuwMP8RPOfsGOoHwOzRssex0ErzBV578oW-C-lfYPXwuw9MdgY2FP1Eg9JwP6tNTH3MazcMeqFCOVraNN1R-uvoRazb7LzGaIHM7K7c-jKVXLIz2fqoxhBrKe01PH9nCNGUfvW8xX4aAGjff5Il4sMd1KoVr5elKTSeq0pckkUYNkd2jVrblCTZf-Mvs0AF2Fq-mOzKtAl5v",
+    "repo_url": "https://github.com/rendiwidya/api-gateway",
+    "about": "API Gateway acts as the single entry point for API requests, routing traffic dynamically, caching hot paths, and applying rate limits.",
+    "problem_statement": "Microservice structures expose multiple backends, complicating client authentication and API version tracking.",
+    "solution": "Built a unified gateway handling token authentication at the edge before proxying requests to downstream microservices.",
+    "tech_stack": ["Go", "Redis", "Docker", "REST API"],
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDm_u5I8DQSS-tDa1OtiAHIfHU1BlR94cuTZAEORcM8AgIJHIJ1QyDEpqtUxEzQ_iLykuwMP8RPOfsGOoHwOzRssex0ErzBV578oW-C-lfYPXwuw9MdgY2FP1Eg9JwP6tNTH3MazcMeqFCOVraNN1R-uvoRazb7LzGaIHM7K7c-jKVXLIz2fqoxhBrKe01PH9nCNGUfvW8xX4aAGjff5Il4sMd1KoVr5elKTSeq0pckkUYNkd2jVrblCTZf-Mvs0AF2Fq-mOzKtAl5v"
+    ],
+    "featured": false
+  }
+]
