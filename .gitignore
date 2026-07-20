@@ -40,6 +40,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# AI
+AGENTS.md
+CLAUDE.md
+
 # PRD
 /stitch_portfolio_website
 PRD.md
+
+
