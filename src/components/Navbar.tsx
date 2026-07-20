@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function Navbar({ onContactClick }: { onContactClick: () => void }) {
+export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
 
@@ -59,14 +59,11 @@ export default function Navbar({ onContactClick }: { onContactClick: () => void 
           </Link>
         </div>
         <div className="flex items-center gap-4">
-          <button
-            onClick={onContactClick}
-            className="inline-flex items-center justify-center px-6 py-2 rounded-full bg-primary text-on-primary hover:bg-surface-tint font-label font-medium transition-all text-xs shadow-sm hover:shadow-md"
-          >
-            Get in touch
+          <button className="p-2 rounded-full text-on-surface-variant hover:bg-surface-container-low transition-all duration-300">
+            <span className="material-symbols-outlined">dark_mode</span>
           </button>
-          <button aria-label="Dark Mode (Disabled)" className="p-2 rounded-full text-on-surface-variant opacity-45 cursor-not-allowed">
-            <span className="material-symbols-outlined">light_mode</span>
+          <button className="md:hidden p-2 text-on-surface">
+            <span className="material-symbols-outlined">menu</span>
           </button>
         </div>
       </div>

@@ -6,11 +6,11 @@ import ContactModal from "./ContactModal";
 import { ContactProvider, useContact } from "@/context/ContactContext";
 
 function AppLayoutContent({ children }: { children: React.ReactNode }) {
-  const { isOpen, open, close } = useContact();
+  const { isOpen, close } = useContact();
 
   return (
     <>
-      <Navbar onContactClick={open} />
+      <Navbar />
       <main className="flex-grow">{children}</main>
       <Footer />
       <ContactModal isOpen={isOpen} onClose={close} />
