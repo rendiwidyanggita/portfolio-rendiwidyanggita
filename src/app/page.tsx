@@ -5,10 +5,18 @@ import { Project } from "@/types";
 import HomeHero from "@/components/HomeHero";
 
 export default function Home() {
-  // Get featured projects
   const featuredProjects = (projectsData as Project[]).filter(
     (project) => project.featured
   );
+
+  const tools = [
+    { name: "Antigravity", icon: "rocket_launch", rotation: "-rotate-12", color: "text-[#9966FF]" },
+    { name: "Codex", icon: "code_blocks", rotation: "-rotate-6", color: "text-[#3B82F6]" },
+    { name: "Stitch", icon: "polyline", rotation: "rotate-0", color: "text-[#F24E1E]" },
+    { name: "Kiro CLI", icon: "terminal", rotation: "rotate-6", color: "text-[#10B981]" },
+    { name: "Gemini", icon: "auto_awesome", rotation: "rotate-12", color: "text-[#8B5CF6]" },
+    { name: "Claude AI", icon: "psychology", rotation: "rotate-[18deg]", color: "text-[#F59E0B]" },
+  ];
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-6 space-y-32">
@@ -16,7 +24,7 @@ export default function Home() {
       <HomeHero />
 
       {/* SECTION 2: FEATURED PROJECTS */}
-      <section className="space-y-12" id="projects">
+      <section className="space-y-12 scroll-mt-28" id="projects">
         <div className="flex justify-between items-end">
           <h2 className="text-3xl md:text-4xl font-headline font-bold text-on-surface">
             Featured Projects
@@ -153,34 +161,22 @@ export default function Home() {
         </div>
         <div className="relative flex justify-center items-center pt-24 pb-12 overflow-visible">
           <div className="flex -space-x-4 md:-space-x-8 items-end">
-            <div className="w-20 h-20 md:w-32 md:h-32 bg-white rounded-2xl shadow-lg border border-outline-variant/20 flex items-center justify-center -rotate-12 hover:-translate-y-4 transition-all duration-300 group cursor-default">
-              <span className="material-symbols-outlined text-4xl text-[#F24E1E]">format_paint</span>
-            </div>
-            <div className="w-20 h-20 md:w-32 md:h-32 bg-white rounded-2xl shadow-lg border border-outline-variant/20 flex items-center justify-center -rotate-6 hover:-translate-y-4 transition-all duration-300 group cursor-default">
-              <span className="material-symbols-outlined text-4xl text-on-surface">edit_note</span>
-            </div>
-            <div className="w-20 h-20 md:w-32 md:h-32 bg-white rounded-2xl shadow-lg border border-outline-variant/20 flex items-center justify-center rotate-0 hover:-translate-y-4 transition-all duration-300 group cursor-default">
-              <span className="material-symbols-outlined text-4xl text-primary">language</span>
-            </div>
-            <div className="w-20 h-20 md:w-32 md:h-32 bg-white rounded-2xl shadow-lg border border-outline-variant/20 flex items-center justify-center rotate-6 hover:-translate-y-4 transition-all duration-300 group cursor-default">
-              <span className="material-symbols-outlined text-4xl text-[#9966FF]">diamond</span>
-            </div>
-            <div className="w-20 h-20 md:w-32 md:h-32 bg-white rounded-2xl shadow-lg border border-outline-variant/20 flex items-center justify-center rotate-12 hover:-translate-y-4 transition-all duration-300 group cursor-default">
-              <span className="material-symbols-outlined text-4xl text-on-surface">terminal</span>
-            </div>
-            <div className="relative w-24 h-24 md:w-40 md:h-40 bg-white rounded-3xl shadow-2xl border border-outline-variant/30 flex items-center justify-center z-10 hover:-translate-y-4 transition-all duration-300 group cursor-default">
-              <div className="absolute -top-16 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-                <div className="bg-black text-white text-xs font-bold px-4 py-2 rounded-lg relative">
-                  Codex
-                  <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-black rotate-45"></div>
+            {tools.map((tool) => (
+              <div
+                key={tool.name}
+                className={`relative w-20 h-20 md:w-32 md:h-32 bg-white rounded-2xl shadow-lg border border-outline-variant/20 flex items-center justify-center ${tool.rotation} hover:-translate-y-4 hover:z-50 transition-all duration-300 group cursor-default`}
+              >
+                <div className="absolute -top-12 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50">
+                  <div className="bg-on-surface text-white text-xs font-bold px-3 py-1.5 rounded-lg relative whitespace-nowrap shadow-xl">
+                    {tool.name}
+                    <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-on-surface rotate-45"></div>
+                  </div>
                 </div>
-              </div>
-              <div className="w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-inner">
-                <span className="material-symbols-outlined text-white text-4xl md:text-6xl">
-                  code_blocks
+                <span className={`material-symbols-outlined text-4xl ${tool.color}`}>
+                  {tool.icon}
                 </span>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

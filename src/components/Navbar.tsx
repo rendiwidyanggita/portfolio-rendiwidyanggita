@@ -48,12 +48,8 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href="/projects"
-            className={`font-label text-sm transition-all ${
-              pathname.startsWith("/projects")
-                ? "text-primary font-bold border-b-2 border-primary pb-1"
-                : "text-on-surface-variant hover:text-primary px-3 py-1 rounded-md hover:bg-surface-container-low"
-            }`}
+            href="/#projects"
+            className={`font-label text-sm transition-all text-on-surface-variant hover:text-primary px-3 py-1 rounded-md hover:bg-surface-container-low`}
           >
             Projects
           </Link>
